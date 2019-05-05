@@ -40,4 +40,4 @@ luac.out
 *.hex
 
 # personal ignore list
-notes/y*
+notes/
