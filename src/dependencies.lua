@@ -14,7 +14,7 @@ gTextures = {
 }
 
 gFrames = {
-  ['aliens'] = GenerateQuads(gTextures['aliens'], 12, 12)
+  ['aliens'] = GenerateQuads(gTextures['aliens'], ALIEN_SIZE, ALIEN_SIZE)
 }
 
 gFont = love.graphics.newFont('fonts/pressstart2p.ttf', 8)
