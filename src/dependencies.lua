@@ -7,7 +7,10 @@ love.graphics.setDefaultFilter('nearest', 'nearest')
 class = require 'lib/class'
 push = require 'lib/push'
 
+require 'src/Alien'
 require 'src/constants'
+require 'src/Entity'
+require 'src/Ship'
 require 'src/util'
 
 gTextures = {

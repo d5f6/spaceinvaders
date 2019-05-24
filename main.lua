@@ -17,6 +17,12 @@ function love.load()
     vsync = true,
     resizable = false
   })
+
+  ship = Ship(
+    VIRTUAL_WIDTH / 2 - ALIEN_SIZE / 2,
+    VIRTUAL_HEIGHT / 24, 
+    
+  )
 end
 
 function love.update(dt)
